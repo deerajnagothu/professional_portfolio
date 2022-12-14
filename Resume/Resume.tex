@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Ronghua Xu
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Ronghua Xu}} & Email: \href{mailto:rxu22@binghamton.edu}{rxu22@binghamton.edu}\\
+  \href{https://www.linkedin.com/in/ronghua-xu-bu/}{Linkedin: https://www.linkedin.com/in/ronghua-xu-bu/} & Mobile : (+1) 607-338-8444 \\
+  \href{https://github.com/samuelxu999}{Github: https://github.com/samuelxu999} & Address: 5 Hamilton Street, Apt 8, Binghamton, NY, 13905\\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Binghamton University-SUNY}{Binghamton, NY}
+      {Ph.D in Electrical Engineering }{Aug 2018 - May 2023}
+      
+    \resumeSubheading
+      {Binghamton University-SUNY}{Binghamton, NY}
+      {Masters in Computer Engineering;  GPA: 3.9/4.0 (Top 5\%)}{Aug 2016 - May 2018}
+      
+	   %{\scriptsize \textit{Courses: Operating Systems, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Probability and Statistics and Network Security.}}
+	    
+    \resumeSubheading
+      {Nanjing University of Aeronautics \& Astronautics}{Nanjing, China}
+      {Master in Mechanical and Electrical Engineering;  GPA: 3.1/4.0}{Aug 2007 - Mar 2010}
+      
+    \resumeSubheading
+      {Nanjing University of Science \& Technology}{Nanjing, China}
+      {Bachelor in Computer Science; GPA: 3.2/4.0}{Sep 2003 - Jul 2007}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{C/C++, python(expert), JAVA, C\#, VB, JavaScript(proficient), tclsh, bash, powershell(prior experience)}
+	\resumeSubItem{Tools}{Docker, GIT, Matlab, Eclipse, Microsoft Visual Studio, Clearcase, DOORS }
+	\resumeSubItem{Additional}{TCP/IP programming, webpage design by using HTML, XML and CSS}
+\resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {ZF North America, Inc}{Farmington Hills, MI}
+    {System and Hardware Engineer - Summer Intern}{May 2021 - Aug 2021}
+		\resumeItemListStart
+        \resumeItem{Customer Requirement}
+          {Developed toolkits to improve legal regulation import to DOORS (reduce 25\% time).}
+        \resumeItem{System Design}
+          {Assisted with FBDD \& TP review, analysis and report, then organized work procedures.}
+        \resumeItem{Technical Support}
+          {Provides software flashing and validation on new ECU modules in Marshall plant.}
+	\resumeItemListEnd
+	
+    \resumeSubheading
+    {Siemens Numerical Control Ltd}{Nanjing, China}
+    {System integration Engineer}{Oct 2011 - Jun 2016}
+    \resumeItemListStart
+        \resumeItem{Product Development}
+          {Participated in research, development and market release of Siemens SINUMERIK-808D numerical control system and Siemens SINUMERIK-808D Advanced (Digital bus) numerical control system.}
+        \resumeItem{Test Automation}
+          {Developed test automation system for SINUMERIK-808D by using of VB scripts, PowerShell and bash scripts, so that all manual test tasks could be executed by computer automation test system.}
+        \resumeItem{Continuous Integration}
+          {Integrated auto-build \& auto-test tools so that daily test could be executed automatically during the night, increased test efficiency and quality by shortening the average test time from 2 days to 0.5 day.}
+        %   \resumeItem{Upgrade NFC}
+        %   {Designed and developed an over-the-air and air-gapped upgrade mechanism that is used to upgrade the single node Network Fabric Controller cluster.}
+        %   \resumeItem{Health Monitoring System}{Designed and developed a monitoring service which is responsible for monitoring the health of all the micro services running inside NFC cluster.}
+        %   \resumeItem{CLI framework}{Developed an internal command line interface tool which provides a set of commands specific to Network Fabric Controller projects to get the system health, logs and current resource utilization. It can be easily extended to perform various other actions.}
+        %   \resumeItem{Bootstrap NFC}{Network Fabric Controller is composed of several micro services deployed on the Kubernetes pods on a single-node cluster. Designed and implemented the bootstrapping mechanism to package all the services and deploy on the Kubernetes environment.}
+        %   \resumeItem{Install/Upgrade/Uninstall NSX agent}{Worked on install, upgrade and uninstall mechanism of NSX agent on workload VMs deployed on NSX cross cloud environment.}
+        %   \resumeItem{AppDiscovery}{Worked on application profiling feature which provides visualization and details of which processes inside a workload VM are communicating on the network.}
+    \resumeItemListEnd
+      
+    \resumeSubheading
+    {Siemens AG DF MC R\&D}{Nanjing, China}
+    {SINUMERIK product family integration tool development program}{Jun 2013 - July 2013}
+		\resumeItemListStart
+        \resumeItem{Test Platform Investigation}
+          {Collaborated with experts working on SINUMERIK-840D system to develop system integration and test automation tools.}
+	\resumeItemListEnd
+
+    \resumeSubheading
+    {Siemens Numerical Control Ltd}{Nanjing, China}
+    {System integration Engineer}{Jun 2010 - Sep 2011}
+		\resumeItemListStart
+        \resumeItem{Product Design}
+          {Participated in research, development and market release of Siemens LOGO!0BA7 smart PLC.}
+        \resumeItem{Firmware Development}
+          {Developed network model of LOGO by implementing Siemens standard S7 communication protocol TCP/IP layer.}
+        \resumeItem{Manufacturing Test}
+          {Designed production test FW interface to support manufacturing test, which not only reduced defective rate of the product but also increased the manufacturer's productivity.}
+	\resumeItemListEnd
+
+    % \resumeSubheading
+    % {Siemens AG DF MC R\&D}{Nanjing, China}
+    % {SINUMERIK product family integration tool development program}{Jun 2013 - July 2013}
+    % \resumeItemListStart
+    % \resumeItem{Android File System}{}
+    % \begin{description}[font=$\bullet$]
+    % \item {Involved in board bring-up activities for Android Smart phones based on Exynos and Broadcom chipsets on Android version 4.3 Jelly Bean to Android 5.0 Lollipop.}
+    % \item {Experienced in porting of File System (FAT, EXFAT, SDCARDFS, EXT4) on Samsung mobile’s proprietary platform.}
+    % \item {Enhanced performance of smart phones having low RAM by analyzing performance using blktrace and tuning kernel parameters. The code was merged in around 15 smart phones.}
+    % \end{description}
+    % \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Academic Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Plug board Proxy (Networking)}{Developed a plug board proxy that adds an extra layer of encryption to connections towards TCP services. Clients running on same server connect to pbproxy, which then relays all traffic to actual services. (Mar '16)}
+\resumeSubItem{Asynchronous Work Queue Manager (Kernel Programming)}{Developed a kernel module to serve as an asynchronous work queue manager with configurable worker threads. Implemented netlink sockets to propagate callbacks from kernel to user land and throttling to improve job extraction latency. (Nov '15)}
+\resumeSubItem{Anti-Malware Stackable File System (Kernel Programming)}{Implemented a stackable, anti-malware Linux file system that prevents the existing file system from being corrupted by malware by detecting virus pattern while attempting to open, read and write a file. (Oct '15)}
+\resumeSubItem{File Encryption System Call (Kernel Programming)}{Implemented a system call in Linux kernel, which supports multiple ciphers to encrypt or decrypt an input file.( Sep '15)}
+% \resumeSubItem{Peg- Solitaire, Connect Four, Sudoku (Game Development)}{Designed a Peg Solitaire, Connect Four and Sudoku using Iterative Deepening Search, Alpha-beta pruning and Backtracking, MRV and Forward Chaining Artificial Intelligence Algorithms respectively in Python. (Aug '15)}
+\resumeSubHeadingListEnd
+
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+% \item {Selected in top 20 students for the Code House event organized by VMware in August15 - August17, 2016.} 
+\item {Outstanding MS research 2017 - 2018, Department of Electrical and Computer Engineering, Binghamton University.}
+% \item {Outstanding under-graduate student of class 2007, Nanjing University of Science \& Technology.}
+\end{description}
+%-------------------------------------------
+\end{document}
