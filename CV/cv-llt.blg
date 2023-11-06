@@ -1,15 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'cv-llt.blg'
-[69] biber-darwin:340> INFO - === Wed Mar  1, 2023, 11:30:17
-[86] Biber.pm:418> INFO - Reading 'cv-llt.bcf'
-[178] Biber.pm:969> INFO - Using all citekeys in bib section 0
-[192] Biber.pm:4383> INFO - Processing section 0
-[203] Biber.pm:4574> INFO - Looking for bibtex file 'own-bib.bib' for section 0
-[207] bibtex.pm:1713> INFO - LaTeX decoding ...
-[244] bibtex.pm:1518> INFO - Found BibTeX data source 'own-bib.bib'
-[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[441] Biber.pm:4203> INFO - Sorting list 'ymdnt/global//global/global' of type 'entry' with template 'ymdnt' and locale 'en-US'
-[441] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[465] bbl.pm:654> INFO - Writing 'cv-llt.bbl' with encoding 'UTF-8'
-[491] bbl.pm:757> INFO - Output to cv-llt.bbl
+[69] biber-darwin:340> INFO - === Sat Oct 28, 2023, 12:08:18
+[84] Biber.pm:418> INFO - Reading 'cv-llt.bcf'
+[173] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[187] Biber.pm:4383> INFO - Processing section 0
+[196] Biber.pm:4574> INFO - Looking for bibtex file 'own-bib.bib' for section 0
+[200] bibtex.pm:1713> INFO - LaTeX decoding ...
+[227] bibtex.pm:1518> INFO - Found BibTeX data source 'own-bib.bib'
+[367] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[367] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[367] Biber.pm:4203> INFO - Sorting list 'ymdnt/global//global/global' of type 'entry' with template 'ymdnt' and locale 'en-US'
+[367] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[386] bbl.pm:654> INFO - Writing 'cv-llt.bbl' with encoding 'UTF-8'
+[401] bbl.pm:757> INFO - Output to cv-llt.bbl
+[402] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/ps/2yr0943j2_dcwjhpf25rs6840000gn/T/biber_tmp_f5he/d47b668d4e9abee119c28f333410e92d_34558.utf8, line 58, warning: 1882 characters of junk seen at toplevel
+[402] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/ps/2yr0943j2_dcwjhpf25rs6840000gn/T/biber_tmp_f5he/d47b668d4e9abee119c28f333410e92d_34558.utf8, line 228, warning: 7775 characters of junk seen at toplevel
+[402] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/ps/2yr0943j2_dcwjhpf25rs6840000gn/T/biber_tmp_f5he/d47b668d4e9abee119c28f333410e92d_34558.utf8, line 306, warning: 2974 characters of junk seen at toplevel
+[402] Biber.pm:132> INFO - WARNINGS: 3

@@ -19,6 +19,59 @@
 
 \refsection{0}
   \datalist[entry]{ymdnt/global//global/global}
+    \entry{nagothu2023LightweightMultimedia}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
+           family={Nagothu},
+           familyi={N\bibinitperiod},
+           given={Deeraj},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {State University of New York at Binghamton}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {United States -- New York}%
+      }
+      \strng{namehash}{0921bd88c18dc98cc294ca7b421dbac7}
+      \strng{fullhash}{0921bd88c18dc98cc294ca7b421dbac7}
+      \strng{bibnamehash}{0921bd88c18dc98cc294ca7b421dbac7}
+      \strng{authorbibnamehash}{0921bd88c18dc98cc294ca7b421dbac7}
+      \strng{authornamehash}{0921bd88c18dc98cc294ca7b421dbac7}
+      \strng{authorfullhash}{0921bd88c18dc98cc294ca7b421dbac7}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the fast development of Fifth-/Sixth-Generation (5G/6G) communications and the Internet of Video Things (IoVT), a broad range of mega-scale data applications have emerged. The rapid deployment of IoVT devices in modern smart cities has enabled secure infrastructures with minimal human intervention. Accompanied by the proliferation of multimedia is the increasing number of attacks against the IoVT systems. With increased onboard computational resources and technological advances in machine learning (ML) models, attack vectors and detection techniques have evolved to use ML-based techniques more effectively, resulting in non-equilibrium dynamics. Modern Artificial Intelligence (AI) technology is integrated with many multimedia applications to help enhance its applications. However, the development of General Adversarial Networks (GANs) also led to DeepFake attacks resulting in the misuse of AI. Instead of engaging in an endless AI arms race “fighting fire with fire”, where new Deep Learning (DL) algorithms keep making fake media more realistic and inadvertently causing the spread of misinformation, this dissertation proposes a novel authentication approach leveraging the Electrical Network Frequency (ENF) signals embedded in the multimedia as an environmental fingerprint against visual layer attacks. An ENF operates at a nominal frequency of 60 Hz/50 Hz based on the geographical location and maintains similar fluctuations throughout the power grid. The multimedia recordings can be verified using signal consistency and similarity by leveraging the time-varying nature of the ENF signal collected from both the Audio-Video recordings and simultaneous ground truth ENF. By studying the spectral estimation techniques STFT and MUSIC along with robust frequency enhancement techniques like Weighted Harmonic Combination and Robust Filtering Algorithm (RFA), the optimal ENF estimation workflow for online forgery detection is analyzed and presented. To improve ENF-based authentication performance, frame processing techniques like Selective Superpixel Masking (SSM) to minimize noise from moving subjects and Singular Spectrum Analysis (SSA) to minimize false alarms in detection are introduced. Equipped with reliable and robust algorithms, AI-generated media like DeepFake can be detected leveraging the ENF-based authentication system proposed as DeFakePro. Furthermore, the synchronous random fluctuations of ENF throughout the grid are integrated as part of a distributed consensus mechanism for IoVT devices, where the proposed LEFC system can detect faulty nodes with fake media broadcast in the network. Along with online detection capabilities, the DEMA system exploits the media metadata information to verify the source based on the time and location of recording using the reference ENF database from all interconnects. The experimental results show that the proposed systems designed using ENF as the environmental fingerprint can enable effective detection and authentication measures against visual layer attacks.}
+      \field{note}{ISBN: 9798380566988}
+      \field{title}{Lightweight {Multimedia} {Authentication} at the {Edge} {Using} {Environmental} {Fingerprint}}
+      \field{type}{Ph.{D}.}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Full Text PDF:/Users/deeraj/Zotero/storage/SGWMPI3Y/Nagothu - 2023 - Lightweight Multimedia Authentication at the Edge .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/2872097834/abstract/A49AAD7CD800446BPQ/1
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/2872097834/abstract/A49AAD7CD800446BPQ/1
+      \endverb
+      \keyw{Electrical Network Frequency,Environmental fingerprint,Internet of Video Things,Multimedia authentication}
+    \endentry
     \entry{nagothu2023AuthenticationVideo}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
@@ -208,78 +261,6 @@
       \endverb
       \keyw{Authentication,Consensus protocol,Deepfakes,Fingerprint recognition,Fluctuations,Media,Video recording}
     \endentry
-    \entry{poredi2022RobustnessElectrical}{inproceedings}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=4c1d16778fb6bfa0e78e36b3ed54203a}{%
-           family={Poredi},
-           familyi={P\bibinitperiod},
-           given={Nihal},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
-           family={Nagothu},
-           familyi={N\bibinitperiod},
-           given={Deeraj},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6684eba4a426125650cb145d676e7c0d}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Xiaohua},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7d262b54f129b374c7f47651f79bd76c}{%
-           family={Aved},
-           familyi={A\bibinitperiod},
-           given={Alexander},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=39bbca2d0a803c967cfdfa301fbdb6da}{%
-           family={Ardiles-Cruz},
-           familyi={A\bibinithyphendelim C\bibinitperiod},
-           given={Erika},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=770d981fb8d50b4de46841fb0cc7cb8b}{%
-           family={Blasch},
-           familyi={B\bibinitperiod},
-           given={Erik},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9071a15dd2e9eda3d4cee310252526f0}
-      \strng{fullhash}{f0721e06e0e56dabbaef2e30e25c3651}
-      \strng{bibnamehash}{f0721e06e0e56dabbaef2e30e25c3651}
-      \strng{authorbibnamehash}{f0721e06e0e56dabbaef2e30e25c3651}
-      \strng{authornamehash}{9071a15dd2e9eda3d4cee310252526f0}
-      \strng{authorfullhash}{f0721e06e0e56dabbaef2e30e25c3651}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Leveraging modern Artificial Intelligence (AI) technology, Deepfake attacks manipulate audio/video streams (AVS) to mimic any targeted person or scenario. Deepfake attacks are highly disturbing, and the misinformation can mislead the public, raising further challenges in policy, technical, social, and legal aspects. Electrical Network Frequency (ENF) signals embedded in AVS data are promising to be utilized as fingerprints to authenticate digital media and timely detect deepfaked audio or video. Meanwhile, the success of ENF-based deepfake detection approaches will be forfeited if attackers can create false ENF fingerprints to fool the detector. In this paper, a thorough experimental study validates the robustness of ENF signals as a fingerprint for digital media authentication. Taking statistical, supervised learning, and deep learning approaches, this work shows that it is infeasible to forecast the future ENF signals based on historical records. While strict theoretical proof is yet to be done, this work experimentally verifies ENF signals as a reliable fingerprint to authenticate digital media.}
-      \field{booktitle}{2022 IEEE 24th International Workshop on Multimedia Signal Processing (MMSP)}
-      \field{issn}{2473-3628}
-      \field{month}{9}
-      \field{title}{Robustness of Electrical Network Frequency Signals as a Fingerprint for Digital Media Authentication}
-      \field{year}{2022}
-      \true{nocite}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/MMSP55362.2022.9949315
-      \endverb
-      \keyw{Authentication,Deep learning,Deepfakes,Digital Media Authentication,Electrical Network Frequency (ENF) Signals,Embedded Fingerprints,Fingerprint recognition,Media,Supervised learning,Time series analysis}
-    \endentry
     \entry{nagothu2022EvolutionAttacks}{inbook}{}
       \name{author}{3}{ul=2}{%
         {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
@@ -327,68 +308,6 @@
       \true{nocite}
       \verb{doi}
       \verb 10.5772/intechopen.105958
-      \endverb
-    \endentry
-    \entry{nagothu2022DistributedCrawler}{inproceedings}{}
-      \name{author}{5}{ul=2}{%
-        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
-           family={Nagothu},
-           familyi={N\bibinitperiod},
-           given={Deeraj},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0d947fb481cb8f9bed24811ae4d8b35a}{%
-           family={Dimock},
-           familyi={D\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4bc1204b6d39f102439ab954b5d96474}{%
-           family={Kulesza},
-           familyi={K\bibinitperiod},
-           given={Adrian},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=88d69ffb3b0856144534e49eaad1856b}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Haoran},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {SPIE}%
-      }
-      \strng{namehash}{a6417862f131b098d4af433da1451f5f}
-      \strng{fullhash}{56913552b34db5ed0a7d9e6497893f8a}
-      \strng{bibnamehash}{56913552b34db5ed0a7d9e6497893f8a}
-      \strng{authorbibnamehash}{56913552b34db5ed0a7d9e6497893f8a}
-      \strng{authornamehash}{a6417862f131b098d4af433da1451f5f}
-      \strng{authorfullhash}{56913552b34db5ed0a7d9e6497893f8a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Modern infrastructure development has led to a rise in deployed surveillance cameras to monitor remote locations and widespread infrastructures. In today's networked surveillance environment, however, human operators are often overwhelmed with the huge amount of visual feeds, which causes poor judgment and delayed response to emergencies. This paper proposes a distributed crawler scheme (DiCrawler) for smart surveillance systems deployed on Internet of Video Things (IoVT). The IoVT camera nodes monitor continuous video input, track the object of interest while preserving privacy, and relay correlative information to targeted nodes for constant monitoring. Each IoVT node monitors the space inside its field of view (FoV) and notifies the neighboring nodes about the objects leaving the FoV and heading in their directions. A smart communication algorithm among IoVT nodes is designed to prevent network bandwidth bottlenecks and preserve computational power. The DiCrawler system can corroborate with human operators and assist with decision-making by raising alarms in case of suspicious behavior. The IoVT network is completely decentralized, using only peer-to-peer (P2P) communication. DiCrawler does not rely on a central server for any computations, preventing a potential bottleneck if hundreds of cameras were connected and constantly uploading data to a server. Each module is also in a compact form factor, making it viable to be mounted on traditional security surveillance cameras. Extensive experimental study on a proof-of-concept prototype validated the effectiveness of the DiCrawler design.}
-      \field{booktitle}{Sensors and Systems for Space Applications XV}
-      \field{month}{6}
-      \field{title}{A Distributed Crawler for IoVT-based Public Safety Surveillance Exploring the Spatio-Temporal Correlation}
-      \field{volume}{12121}
-      \field{year}{2022}
-      \true{nocite}
-      \field{pages}{18\bibrangedash 28}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1117/12.2618909
       \endverb
     \endentry
     \entry{nagothu2022DeterringDeepfake}{article}{}
@@ -698,63 +617,6 @@
       \endverb
       \keyw{blockchain,consensus,electrical network frequency (ENF),Internet of Video Things (IoVT),Proof-of-ENF (PoENF),security}
     \endentry
-    \entry{quan2021CriPIEfficient}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=34b36a619e2c1858b68d3d60f6f50bd1}{%
-           family={Quan},
-           familyi={Q\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
-           family={Nagothu},
-           familyi={N\bibinitperiod},
-           given={Deeraj},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4c1d16778fb6bfa0e78e36b3ed54203a}{%
-           family={Poredi},
-           familyi={P\bibinitperiod},
-           given={Nihal},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {SPIE}%
-      }
-      \strng{namehash}{523176254cf67f99a2d6f26ca0997624}
-      \strng{fullhash}{ffa1ca645afa6956f17a945671d6e129}
-      \strng{bibnamehash}{ffa1ca645afa6956f17a945671d6e129}
-      \strng{authorbibnamehash}{ffa1ca645afa6956f17a945671d6e129}
-      \strng{authornamehash}{523176254cf67f99a2d6f26ca0997624}
-      \strng{authorfullhash}{ffa1ca645afa6956f17a945671d6e129}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Deep neural networks (DNN) have been studied intensively in recent years, leading to many practical applications. However, there are also concerns about the security problems and vulnerabilities of DNN. Studies on adversarial network development have shown that relatively more minor perturbations can impact the DNN performance and manipulate its outcome. The impacts of adversarial perturbations have led to the development of advanced techniques for generating image-level perturbations. Once embedded in a clean image, these perturbations are not perceptible to human eyes and fool a well-trained deep learning (DL) convolutional neural network (CNN) classifier. This work introduces a new Critical-Pixel Iterative (CriPI) algorithm after a thorough study on critical pixels' characteristics. The proposed CriPI algorithm can identify the critical pixels and generate one-pixel attack perturbations with a much higher efficiency. Compared to a one-pixel attack benchmark algorithm, the CriPI algorithm significantly reduces the time delay of the attack from seven minutes to one minute with similar success rates.}
-      \field{booktitle}{Sensors and Systems for Space Applications XIV}
-      \field{month}{4}
-      \field{shorttitle}{CriPI}
-      \field{title}{CriPI: An Efficient Critical Pixels Identification Algorithm for Fast One-Pixel Attacks}
-      \field{volume}{11755}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{83\bibrangedash 99}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1117/12.2581377
-      \endverb
-    \endentry
     \entry{nagothu2021AuthenticatingVideo}{article}{}
       \name{author}{4}{ul=2}{%
         {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
@@ -806,130 +668,6 @@
       \true{nocite}
       \verb{doi}
       \verb 10.4108/eai.4-2-2021.168648
-      \endverb
-    \endentry
-    \entry{xu2020BlendSPSBLockchainENabled}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=48ddcbb5a0e0422e5e2557d70760c236}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Ronghua},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dc37be45250babbe9631db590e46ed99}{%
-           family={Nikouei},
-           familyi={N\bibinitperiod},
-           given={Seyed\bibnamedelima Yahya},
-           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
-           family={Nagothu},
-           familyi={N\bibinitperiod},
-           given={Deeraj},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7f59904c9deda7f6b0ac2a828b99a318}{%
-           family={Fitwi},
-           familyi={F\bibinitperiod},
-           given={Alem},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Multidisciplinary Digital Publishing Institute}%
-      }
-      \strng{namehash}{7a99fc7e49d44da18f91b59b71bd0b63}
-      \strng{fullhash}{ffc5ad4afe7bbd1c739bb47c092e30b9}
-      \strng{bibnamehash}{ffc5ad4afe7bbd1c739bb47c092e30b9}
-      \strng{authorbibnamehash}{ffc5ad4afe7bbd1c739bb47c092e30b9}
-      \strng{authornamehash}{7a99fc7e49d44da18f91b59b71bd0b63}
-      \strng{authorfullhash}{ffc5ad4afe7bbd1c739bb47c092e30b9}
-      \field{extraname}{4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Due to the recent advancements in the Internet of Things (IoT) and Edge-Fog-Cloud Computing technologies, the Smart Public Safety (SPS) system has become a more realistic solution for seamless public safety services that are enabled by integrating machine learning (ML) into heterogeneous edge computing networks. While SPS facilitates convenient exchanges of surveillance data streams among device owners and third-party applications, the existing monolithic service-oriented architecture (SOA) is unable to provide scalable and extensible services in a large-scale heterogeneous network environment. Moreover, traditional security solutions rely on a centralized trusted third-party authority, which not only can be a performance bottleneck or the single point of failure, but it also incurs privacy concerns on improperly use of private information. Inspired by blockchain and microservices technologies, this paper proposed a BLockchain-ENabled Decentralized Smart Public Safety (BlendSPS) system. Leveraging the hybrid blockchain fabric, a microservices based security mechanism is implemented to enable decentralized security architecture, and it supports immutability, auditability, and traceability for secure data sharing and operations among participants of the SPS system. An extensive experimental study verified the feasibility of the proposed BlendSPS that possesses security and privacy proprieties with limited overhead on IoT based edge networks.}
-      \field{issn}{2624-6511}
-      \field{journaltitle}{Smart Cities}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{number}{3}
-      \field{shorttitle}{BlendSPS}
-      \field{title}{BlendSPS: A BLockchain-ENabled Decentralized Smart Public Safety System}
-      \field{volume}{3}
-      \field{year}{2020}
-      \true{nocite}
-      \field{pages}{928\bibrangedash 951}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.3390/smartcities3030047
-      \endverb
-      \keyw{blockchain,Byzantine Fault Tolerant (BFT),Internet of Things (IoT),microservices,Proof-of-Work (PoW),security,smart contract,Smart Public Safety (SPS)}
-    \endentry
-    \entry{rosenberg2020EnablingContinuous}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=9fb027478fc802ef3b437e84c71d4911}{%
-           family={Rosenberg},
-           familyi={R\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7f9187a3e17b740043bb550da14ae833}{%
-           family={Burns},
-           familyi={B\bibinitperiod},
-           given={John\bibnamedelima Henry},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
-           family={Nagothu},
-           familyi={N\bibinitperiod},
-           given={Deeraj},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {SPIE}%
-      }
-      \strng{namehash}{657a866942d6b057de40627e8c654ecd}
-      \strng{fullhash}{4efbee28d765afa797b3a6b13367b784}
-      \strng{bibnamehash}{4efbee28d765afa797b3a6b13367b784}
-      \strng{authorbibnamehash}{4efbee28d765afa797b3a6b13367b784}
-      \strng{authornamehash}{657a866942d6b057de40627e8c654ecd}
-      \strng{authorfullhash}{4efbee28d765afa797b3a6b13367b784}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{One of the major restrictions on the practical applications of unmanned aerial vehicles (UAV) is their incomplete self-sufficiency, which makes continuous operations infeasible without human oversights. The more oversight UAVs require, the less likely they are going to be commercially advantageous when compared to their alternatives. As an autonomous system, how much human interaction is needed to function is one of the best indicators evaluating the limitations and inefficiencies of the UAVs. Popular UAV related research areas, such as path planning and computer vision, have enabled substantial advances in the ability of drones to act on their own. This research is dedicated to in-flight operations, in which there is not much reported effort to tackle the problem from the aspect of the supportive infrastructure. In this paper, an Autonomous Service network infrastructure (AutoServe) is proposed. Aiming at increasing the future autonomy of UAVs, the AutoServe system includes a service-oriented landing platform and a customized communication protocol. This supportive AutoServe infrastructure will autonomize many tasks currently done manually by human operators, such as battery replacement. A proof-of-concept prototype has been built and the simulation experimental study validated the design.}
-      \field{booktitle}{Sensors and Systems for Space Applications XIII}
-      \field{month}{4}
-      \field{title}{Enabling Continuous Operations for UAVs with an Autonomous Service Network Infrastructure}
-      \field{volume}{11422}
-      \field{year}{2020}
-      \true{nocite}
-      \field{pages}{165\bibrangedash 179}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1117/12.2565866
       \endverb
     \endentry
     \entry{nagothu2020SmartSurveillance}{inbook}{}
@@ -986,58 +724,6 @@
       \range{pages}{25}
       \verb{doi}
       \verb 10.1049/PBPC033E_ch19
-      \endverb
-    \endentry
-    \entry{fitwi2019DistributedAgentbased}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=6520a6cff2b74f9e6cfbcfbc803d7d21}{%
-           family={Fitwi},
-           familyi={F\bibinitperiod},
-           given={Alem\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
-           family={Nagothu},
-           familyi={N\bibinitperiod},
-           given={Deeraj},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=770d981fb8d50b4de46841fb0cc7cb8b}{%
-           family={Blasch},
-           familyi={B\bibinitperiod},
-           given={Erik},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b86b83f6901b12233fca566c7e61e438}
-      \strng{fullhash}{24f21cafd76878f2fc49d23c8bfaa625}
-      \strng{bibnamehash}{24f21cafd76878f2fc49d23c8bfaa625}
-      \strng{authorbibnamehash}{24f21cafd76878f2fc49d23c8bfaa625}
-      \strng{authornamehash}{b86b83f6901b12233fca566c7e61e438}
-      \strng{authorfullhash}{24f21cafd76878f2fc49d23c8bfaa625}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A seamless communication capability is important in military operations. Likewise, enhanced security, increased capacity, and robust communication mechanisms are vital for humanitarian and disaster-response operations. Often, a system of wide-band satellites is employed for real-time exchange of information and over-the-horizon control, but the communications are prone to denial of service (DoS) attacks, and delayed redeployment. Hence, a swarm of drones could be deployed in mission-critical operations in times of urgency for a secured and robust distributed-intercommunication which is essential for survivability and successful completion of missions. In this paper, a distributed-agent-based framework for secure and reliable information exchange between drones in a constellation is proposed. The framework comprises a mechanism for path planning simulation and estimation, a flexible network architecture for improved client-server(C/S) and peer-to-peer (P2P) connectivity, as well as agents for identity authentications and secure communications. The framework has been simulated and verified with results showing promise.}
-      \field{booktitle}{Proc. - Winter Simul. Conf.}
-      \field{isbn}{978-1-72813-283-9}
-      \field{issn}{08917736}
-      \field{title}{A Distributed Agent-Based Framework for a Constellation of Drones in a Military Operation}
-      \field{volume}{2019-Decem}
-      \field{year}{2019}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/WSC40007.2019.9004907
       \endverb
     \endentry
     \entry{nagothu2019DetectingMalicious}{article}{}
@@ -1212,110 +898,6 @@
       \endverb
       \keyw{Blockchain,Decentralization,Microservices Architecture,Smart Contracts,Smart Surveillance}
     \endentry
-    \entry{nikouei2019RealtimeIndex}{inproceedings}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=3448bcb7638fe2c7a071f11166d52b61}{%
-           family={Nikouei},
-           familyi={N\bibinitperiod},
-           given={Seyed\bibnamedelima Y.},
-           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=48ddcbb5a0e0422e5e2557d70760c236}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Ronghua},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
-           family={Nagothu},
-           familyi={N\bibinitperiod},
-           given={Deeraj},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7d262b54f129b374c7f47651f79bd76c}{%
-           family={Aved},
-           familyi={A\bibinitperiod},
-           given={Alexander},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=770d981fb8d50b4de46841fb0cc7cb8b}{%
-           family={Blasch},
-           familyi={B\bibinitperiod},
-           given={Erik},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6407175d5491933736a43be1e5f8f3de}
-      \strng{fullhash}{7866d8b760bc83ed4cfca03c47e48669}
-      \strng{bibnamehash}{7866d8b760bc83ed4cfca03c47e48669}
-      \strng{authorbibnamehash}{7866d8b760bc83ed4cfca03c47e48669}
-      \strng{authornamehash}{6407175d5491933736a43be1e5f8f3de}
-      \strng{authorfullhash}{7866d8b760bc83ed4cfca03c47e48669}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Information from surveillance video is essential for situational awareness (SAW). Nowadays, a prohibitively large amount of surveillance data is being generated continuously by ubiquitously distributed video sensors. It is very challenging to immediately identify the objects of interest or zoom in suspicious actions from thousands of video frames. Making the big data indexable is critical to tackle this problem. It is ideal to generate pattern indexes in a real-Time, on-site manner on the video streaming instead of depending on the batch processing at the cloud centers. The modern edge-fog-cloud computing paradigm allows implementation of time sensitive tasks at the edge of the network. The on-site edge devices collect the information sensed in format of frames and extracts useful features. The near-site fog nodes conduct the contextualization and classification of the features. The remote cloud center is in charge of more data intensive and computing intensive tasks. However, exchanging the index information among devices in different layers raises security concerns where an adversary can capture or tamper with features to mislead the surveillance system. In this paper, a blockchain enabled scheme is proposed to protect the index data through an encrypted secure channel between the edge and fog nodes. It reduces the chance of attacks on the small edge and fog devices. The feasibility of the proposal is validated through intensive experimental analysis.}
-      \field{booktitle}{2018 IEEE Int. Smart Cities Conf. ISC2 2018}
-      \field{isbn}{978-1-5386-5959-5}
-      \field{title}{Real-Time Index Authentication for Event-Oriented Surveillance Video Query Using Blockchain}
-      \field{year}{2019}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/ISC2.2018.8656668
-      \endverb
-      \keyw{Blockchain,Edge Computing,Internet of Things (IoT),Smart Surveillance,Video Indexing}
-    \endentry
-    \entry{nagothu2017ICrawlVisual}{incollection}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
-           family={Nagothu},
-           familyi={N\bibinitperiod},
-           given={Deeraj},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d6b5df0d2444e7536589e7a6b6d6fae1}{%
-           family={Dolgikh},
-           familyi={D\bibinitperiod},
-           given={Andrey},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d62f3bc54573af66bb3c0a2ce6094f31}
-      \strng{fullhash}{d62f3bc54573af66bb3c0a2ce6094f31}
-      \strng{bibnamehash}{d62f3bc54573af66bb3c0a2ce6094f31}
-      \strng{authorbibnamehash}{d62f3bc54573af66bb3c0a2ce6094f31}
-      \strng{authornamehash}{d62f3bc54573af66bb3c0a2ce6094f31}
-      \strng{authorfullhash}{d62f3bc54573af66bb3c0a2ce6094f31}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper presents ``iCrawl'', a visual high interaction client honeypot system. Web-based cyber-attacks have increased exponentially along with the growth of cloud-based web application technologies. Web browsers provide users with an entry point to these web applications. The iCrawl system is designed to deliver a high interaction honey client that is virtually indistinguishable from a real human-driven client. The system operates by driving an actual web browser in a fashion closely resembling a genuine user's actions. Unlike most crawlers iCrawl attempts to operate over visual elements on the web page, not code elements. The honeypot system consists of pre-configured decoy virtual machines. Each virtual machine includes spider program, which upon execution automates the process of driving the web browser and crawling the targeted website. It performs browsing by observing the page and simulating human user input through mouse and keyboard activity. The data collected from the crawling is stored in a graph database in the form of nodes and relations. This data captures the context and the changes in system behavior due to interaction with the crawled website. The graph data can be queried and monitored online for structural patterns and anomalies. The iCrawl system is enabling technology for studying sophisticated malicious websites that can avoid detection by the simpler crawlers typically utilized by well-known security companies.}
-      \field{booktitle}{Lect. Notes Comput. Sci. (Including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics)}
-      \field{isbn}{978-3-319-65126-2}
-      \field{issn}{16113349}
-      \field{title}{iCrawl: A Visual High Interaction Web Crawler}
-      \field{volume}{10446 LNCS}
-      \field{year}{2017}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1007/978-3-319-65127-9_8
-      \endverb
-      \keyw{Automatic web crawling,High interaction honeypot,Humanlike web interaction,System data collection}
-    \endentry
     \entry{nagothuICrawlHigh}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0921bd88c18dc98cc294ca7b421dbac7}{%
@@ -1337,6 +919,7 @@
       \strng{authorbibnamehash}{0921bd88c18dc98cc294ca7b421dbac7}
       \strng{authornamehash}{0921bd88c18dc98cc294ca7b421dbac7}
       \strng{authorfullhash}{0921bd88c18dc98cc294ca7b421dbac7}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
